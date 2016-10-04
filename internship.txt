@@ -1,0 +1,72 @@
+<h2>Workiva</h2>
+
+<p>For the last three years, I've been working for a company called Workiva [link].
+I've worked as a Software Engineer in Release Management, developing tools
+that make the process of developing code to deployment much faster. I've worked
+on a small team (4 developers), which has given me great experience in many
+areas of application development (UI, server, API's).</p>
+
+<p>In my time at Workiva, I've worked on many projects. Because I've worked part-time
+during the school year and full-time over the summer, I've been able to work
+on and develop many different components of our application.</p>
+
+<p>I've learned a lot from my internship at Workiva. On the technical side,
+I've learned a lot about database management, API development, UI design and development,
+object-oriented design, and ground-up application development. On the non-technical side,
+I've learned how to communicate effectively with members of my team. I've learned
+that one of the most important things to have among a team is conversation that's
+not related to what you're developing. I've noticed that team momentum significantly
+increases when each team member feels valued, and that they are known and cared
+about outside of the office. I've learned how to communicate with other teams
+and stakeholders as well.</p>
+
+<p>In regards to what my co-workers think about me, this is the most recent
+review I've been a part of:
+
+<blockquote>
+  <p>How do their strengths or abilities contribute to the success of the team?</p>
+  <ul>
+    <li>Joe is the best code reviewer on the team</li>
+    <li>He loves to look for the most optimal solution for a problem</li>
+    <li>He produces good code quickly.</li>
+    <li>Attention to detail during code review</li>
+    <li>Raw programming talent</li>
+    <li>Dedicated to doing things the right way</li>
+    <li>Probably the strongest developer on our team when it comes to straight code quality/efficiency</li>
+    <li>Able to churn through a lot of tickets quickly and successfully</li>
+    <li>He is always watching for efficiency and consistency</li>
+    <li>He thinks through the edge cases well, and has prevented more than a couple of bugs from slipping into master by spotting a missing Nonetype check during review.</li>
+    <li>His contributions to recent error handling/exception changes have made code more consistent and readable.</li>
+  </ul>
+
+  <p>What positive impacts do they provide to the team/company?</p>
+  <ul>
+    <li>During code reviews, Joe forces the rest of us to think hard about why we made certain decisions while writing code. This leads to a better overall quality of code.</li>
+    <li>When Joe isn't in school, the amount of bugs we have is noticeably reduced because he reviews more.</li>
+    <li>The individual pull page has made it far easier to support rosie, and in turn, has improved our ability to get releases out the door quickly.</li>
+    <li>His MARV rewrites have significantly improved the usability of those popular pages, and in turn reduce the amount of time that developers on other teams have to spend preparing their releases.</li>
+    <li>He has made hundreds of improvements to existing functionality, and his work writing unit tests/code reviewing prs have both steadily improved the quality of the rmconsole code.</li>
+    <li>Joe is always a great resource for a code review, and has been very beneficial and vocal in code design brainstorms as well.</li>
+  </ul>
+
+  <p>Do you see this person as a leader within the team?</p>
+  <ul>
+    <li>I think everyone on the team is a leader in their own way, and Joe is no exception. He is always willing to look at something with me and loves to discuss the best way to implement things. Just like the other members of the team, I look to Joe for advice often.</li>
+    <li>I think that we all strive to follow the examples he has set in what a good code review looks like and how a solid engineer should act.</li>
+  </ul>
+
+  <p>Does this person positively contribute to your success?</p>
+  <ul>
+    <li>He makes me think harder about why I made certain design decisions. This is important because when I have to justify my decisions, it forces me to look at the benefits and consequences of my design. This makes me a better programmer.</li>
+    <li>His easy going nature is a great influence upon the team</li>
+    <li>I always feel more comfortable merging a pull request that I know has his +1.</li>
+  </ul>
+  <p>Additional Comments</p>
+  <ul>
+    <li>The production on the team goes up during the summer because Joe is here</li>
+    <li>He is a valued member of the team.</li>
+    <li>I am constantly impressed by Joe as an Engineer and as an Individual.</li>
+    <li>Our velocity increases substantially when he is around, and I hope that we are able to keep him around after graduation.</li>
+  </ul>
+</blockquote>
+</p>
