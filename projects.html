@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joe's Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Projects</a></li>
+          <li><a href="reflections.html">Reflections</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </div>
+
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Projects</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <h2>NodeJS Chat <small class="text-muted">Created in SE 319</small></h2>
+      <div class="col-md-12">
+        <p>
+          In this project, I was exploring the use of the JavaScript library,
+          <a href="https://nodejs.org/en/">Node</a>. Node is great for
+          creating very fast, responsive web applications.
+          One of the most common things to do in experimenting with Node is to
+          create some sort of chat room. That is exactly what I did - I created
+          a chat service. This service allows users to create public, private,
+          and 1-1 chat rooms where they can chat with other friends or users
+          of the application. A cool feature is that you can very quickly see
+          when other users of the room are typing a message. Also, you can
+          see what users are active in a given room.
+        </p>
+          <img src="room3.png" style="width:35em; border:1px solid #A6A5A3; height:18.7em;">
+          <img src="room2.png" style="width:35em; border:1px solid #A6A5A3; height:18.7em; margin-left:10em;">
+      </div>
+    </div>
+    <div class="row">
+      <h2>Wiki Crawler <small class="text-muted">Created in ComS 311</small></h2>
+      <div class="col-md-12">
+        <p>
+          In this project, I created an application that would
+          <a href="https://en.wikipedia.org/wiki/Web_crawler">crawl</a>
+          through wikipedia. The purpose of this crawling was to create a
+          <a href="https://en.wikipedia.org/wiki/Graph_theory">graph</a>
+          representation of the wiki pages. The application starts by
+          receiving a seed url (extention from the wikipedia base url). From
+          there, it begins crawling the seed url page, until the number of links
+          collected have reached some pre-determined limit. After receiving all
+          of these links (represented as vertices on the graph), the application
+          then began constructing edges between the vertices. The following is
+          the output graph when calling <code>new WikiCralwer("/wiki/Computer_Science", 1000, "WikiCS.txt")</code>,
+          where "/wiki/Computer_Science" is the seed url, 1000 is the total number of
+          <i>new</i> vertices to fetch, and "WikiCS.txt" is the output file.
+          Each line is a vertex pair. That means that the item on the left side
+          of the column is connected to the item on the right side of the column.
+          Here is the output file:
+        </p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <object class="embed-responsive-item" data="WikiCS.pdf" type="application/pdf" width="100%" height="100%">
+          </object>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+  <hr>
+  <footer>
+    <div class="container-fluid">
+      <p><i>Joseph McGovern, CPrE -- mcgovern@iastate.edu</i></p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
