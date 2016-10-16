@@ -8,10 +8,9 @@
 
   <!-- Bootstrap -->
   <link href="static/css/bootstrap.min.css" rel="stylesheet">
-
+  <script src='static/js/layout.js'></script>
 </head>
 <body>
-
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -45,16 +44,90 @@
   </div>
 
   <div class="container">
+    <!-- Contents -->
+      <div class="row">
+        <h2>Contents</h2>
+        <p>
+          <a href='#budgeter'>Budgeter</a>
+        </p>
+        <p>
+          <a href='#face-recongition'>Face Recognition</a>
+        </p>
+        <p>
+          <a href='#nodejs-chat'>NodeJS Chat</a>
+        </p>
+        <p>
+          <a href='#wiki-crawler'>Wiki Crawler</a>
+        </p>
+        <hr />
+      </div>
+
+    <!--  START BUDGETER -->
     <div class="row">
-        <h2>Budgeter <small class="text-muted">Created in SE 329</small></h2>
+      <a name="budgeter"></a>
+      <h2>Budgeter <small class="text-muted">Created in SE 329</small></h2>
       <div class="col-md-12">
         <p>
-          In Progress.
+          In this group project, we created a web application that did budget
+          tracking and handling. You would have some initial income for your
+          "budget term" (or pay period) and would create different categories
+          that would split that money up. For example, you could have a food category,
+          a clothes category, and a bills category. Expenses would be added to those
+          categories. This application let you easily track how your money was spent.
+          This same purpose could probably be acheived with an Excel-like application.
+          However, this application has a much friendlier UI and is built to
+          track budgets.
+        </p>
+
+        <p>
+          What makes this application distinct from a spreadsheet is that it
+          can read receipts. You can upload an image of a receipt, and it will
+          read the contents of the receipt, and build out an expense with the
+          information it found about the various purchases listed on the receipt.
+          This is nice because the user does not have to input every detail of
+          a receipt. Instead, he or she can take a quick photo of their receipt and
+          have the contents be added to their budget.
+        </p>
+
+        <p>
+          To extract the words from the receipt, we connected with a service
+          called <a href='https://ocr.space/'>OCR.Space</a>. This would search
+          the image we supplied it for words and give those words back to us.
+          This service helped us a lot with getting words from an image. It was
+          also our limiting factor. This service would not always give us all
+          of the words on the receipt (which means we can't list every puchased item),
+          and it would also not correctly read words (lots of misspells). To
+          get around the misspells, we used
+          <a href='https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api'>
+            Bing Spell Check API
+          </a>
+          to autocorrect the words that we received from the OCR
+          (Optical Character Recognition) API.
+        </p>
+
+        <p>
+          This application was written in Java, running on
+          <a href='https://cloud.google.com/appengine/docs'>Google App Engine</a>.
+        </p>
+
+        <p>
+          Our demos for this application are split up into two parts:
+          <p style='text-indent:20px;'>
+            <a target='_blank' href='http://www.screencast.com/t/v0dRy82O'>PART 1</a>
+          </p>
+          <p style='text-indent:20px;'>
+            <a target='_blank' href='http://www.screencast.com/t/JX9EvthHZ'>PART 2</a>
+          </p>
         </p>
       </div>
     </div>
+
+    <hr />
+
+    <!--  START FACE RECOGNITION -->
     <div class="row">
-        <h2>Face Recognition <small class="text-muted">Created in SE 329</small></h2>
+      <a name="face-recongition"></a>
+      <h2>Face Recognition <small class="text-muted">Created in SE 329</small></h2>
       <div class="col-md-12">
         <p>
           In this group project, we created an application that would allow
@@ -82,13 +155,28 @@
         </p>
 
         <p>
+          This application was written in Java, built to run
+          on <a href='https://cloud.google.com/appengine/docs'>Google App Engine</a>.
+          We used servlets for all of our request handling. Detecting faces in an
+          image and recognizing them was handled by a service that we connected
+          with via API called <a href='https://www.kairos.com/'>Kairos</a>.
+          This service alleviated a lot of the workload by doing all of the
+          heavy lifting in detecting and recognizing faces.
+        </p>
+
+        <p>
           Click <a target='_blank' href='http://screencast.com/t/uyeCo7lk'>here</a>
           to see our demo video.
         </p>
       </div>
     </div>
+
+    <hr />
+
+    <!--  START NODEJS CHAT -->
     <div class="row">
-        <h2>NodeJS Chat <small class="text-muted">Created in SE 319</small></h2>
+      <a name="nodejs-chat"></a>
+      <h2>NodeJS Chat <small class="text-muted">Created in SE 319</small></h2>
       <div class="col-md-12">
         <p>
           In this project, I was exploring the use of the JavaScript library,
@@ -106,7 +194,12 @@
           <img src="static/img/room2.png" style="width:35em; border:1px solid #A6A5A3; height:18.7em; margin-left:10em;">
       </div>
     </div>
+
+    <hr />
+
+    <!--  START WIKI CRAWLER -->
     <div class="row">
+      <a name="wiki-crawler"></a>
       <h2>Wiki Crawler <small class="text-muted">Created in ComS 311</small></h2>
       <div class="col-md-12">
         <p>
